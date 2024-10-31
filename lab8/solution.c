@@ -4,8 +4,6 @@
 int determinant(int n, int mat[n][n]) {
     int det = 0;
 
-    // if (n == 1) {
-    //     return mat[0][0];
     if (n == 2) {
         return mat[0][0] * mat[1][1] - mat[0][1] * mat[1][0];
     } else if (n > 2) {
